@@ -1,0 +1,45 @@
+2024-01-31T06:30:35+00:00 CRITICAL Uncaught Error: Call to undefined function tinv_get_option() in C:\xampp\htdocs\EgCurrency\wp-content\plugins\ti-woocommerce-wishlist\ti-woocommerce-wishlist.php:130
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): uninstall_tinv_wishlist('')
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-admin\includes\plugin.php(1269): do_action('uninstall_ti-wo...')
+#4 C:\xampp\htdocs\EgCurrency\wp-admin\includes\plugin.php(960): uninstall_plugin('ti-woocommerce-...')
+#5 C:\xampp\htdocs\EgCurrency\wp-admin\includes\ajax-actions.php(4748): delete_plugins(Array)
+#6 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): wp_ajax_delete_plugin('')
+#7 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#10 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\ti-woocommerce-wishlist\ti-woocommerce-wishlist.php on line 130
+
+2024-01-31T07:49:22+00:00 CRITICAL Uncaught Error: Call to undefined function tinv_get_option() in C:\xampp\htdocs\EgCurrency\wp-content\plugins\ti-woocommerce-wishlist\ti-woocommerce-wishlist.php:130
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): uninstall_tinv_wishlist('')
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-admin\includes\plugin.php(1269): do_action('uninstall_ti-wo...')
+#4 C:\xampp\htdocs\EgCurrency\wp-admin\includes\plugin.php(960): uninstall_plugin('ti-woocommerce-...')
+#5 C:\xampp\htdocs\EgCurrency\wp-admin\includes\ajax-actions.php(4748): delete_plugins(Array)
+#6 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): wp_ajax_delete_plugin('')
+#7 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#10 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\ti-woocommerce-wishlist\ti-woocommerce-wishlist.php on line 130
+
+2024-01-31T08:41:33+00:00 CRITICAL Uncaught Error: Call to undefined function tinv_get_option() in C:\xampp\htdocs\EgCurrency\wp-content\plugins\ti-woocommerce-wishlist\ti-woocommerce-wishlist.php:130
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): uninstall_tinv_wishlist('')
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-admin\includes\plugin.php(1269): do_action('uninstall_ti-wo...')
+#4 C:\xampp\htdocs\EgCurrency\wp-admin\includes\plugin.php(960): uninstall_plugin('ti-woocommerce-...')
+#5 C:\xampp\htdocs\EgCurrency\wp-admin\includes\ajax-actions.php(4748): delete_plugins(Array)
+#6 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): wp_ajax_delete_plugin('')
+#7 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#10 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\ti-woocommerce-wishlist\ti-woocommerce-wishlist.php on line 130
+

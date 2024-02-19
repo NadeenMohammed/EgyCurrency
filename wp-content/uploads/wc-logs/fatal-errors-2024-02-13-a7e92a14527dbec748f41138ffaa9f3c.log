@@ -1,0 +1,642 @@
+2024-02-13T06:26:36+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\shapes\widgets\text-path.php on line 13
+
+2024-02-13T08:47:33+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: float * string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\Calculate_Currency_rate\Calculate_Currency_rate.php:102
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-content\plugins\Calculate_Currency_rate\Calculate_Currency_rate.php(137): display_calculator()
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(433): calculate_rate_shortcode('', '', 'calculate_rate')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(calcul...', 'do_shortcode_ta...', '[calculate_rate...')
+#4 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\widgets\shortcode.php(133): do_shortcode('[calculate_rate...')
+#5 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#6 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#7 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(755): Elementor\Widget_Base->render_content()
+#8 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Widget_Base->print_content()
+#9 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#10 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#11 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#12 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#13 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1740): Elementor\Element_Base->print_element()
+#14 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1139): Elementor\Core\Base\Document->print_elements(Array)
+#15 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1165): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#16 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1060): Elementor\Frontend->get_builder_content(9728)
+#17 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h3>\n\t\t\t\t\tInter...')
+#18 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h3>\n\t\t\t\t\tInter...', Array)
+#19 C:\xampp\htdocs\EgCurrency\wp-includes\post-template.php(256): apply_filters('the_content', '<h3>\n\t\t\t\t\tInter...')
+#20 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#21 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#22 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#23 C:\xampp\htdocs\EgCurrency\wp-content\themes\dt-the7\inc\mods\compatibility\elementor\page-templates\elementor-page.php(27): Elementor\Modules\PageTemplates\Module->print_content()
+#24 C:\xampp\htdocs\EgCurrency\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\EgCurrency\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#26 C:\xampp\htdocs\EgCurrency\index.php(17): require('C:\\xampp\\htdocs...')
+#27 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\Calculate_Currency_rate\Calculate_Currency_rate.php on line 102
+
+2024-02-13T08:47:50+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: float * string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\Calculate_Currency_rate\Calculate_Currency_rate.php:102
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-content\plugins\Calculate_Currency_rate\Calculate_Currency_rate.php(137): display_calculator()
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(433): calculate_rate_shortcode('', '', 'calculate_rate')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(calcul...', 'do_shortcode_ta...', '[calculate_rate...')
+#4 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\widgets\shortcode.php(133): do_shortcode('[calculate_rate...')
+#5 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#6 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#7 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(755): Elementor\Widget_Base->render_content()
+#8 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Widget_Base->print_content()
+#9 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#10 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#11 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#12 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#13 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1740): Elementor\Element_Base->print_element()
+#14 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1139): Elementor\Core\Base\Document->print_elements(Array)
+#15 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1165): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#16 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1060): Elementor\Frontend->get_builder_content(9728)
+#17 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h3>\n\t\t\t\t\tInter...')
+#18 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h3>\n\t\t\t\t\tInter...', Array)
+#19 C:\xampp\htdocs\EgCurrency\wp-includes\post-template.php(256): apply_filters('the_content', '<h3>\n\t\t\t\t\tInter...')
+#20 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#21 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#22 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#23 C:\xampp\htdocs\EgCurrency\wp-content\themes\dt-the7\inc\mods\compatibility\elementor\page-templates\elementor-page.php(27): Elementor\Modules\PageTemplates\Module->print_content()
+#24 C:\xampp\htdocs\EgCurrency\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\EgCurrency\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#26 C:\xampp\htdocs\EgCurrency\index.php(17): require('C:\\xampp\\htdocs...')
+#27 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\Calculate_Currency_rate\Calculate_Currency_rate.php on line 102
+
+2024-02-13T08:48:09+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: float * string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\Calculate_Currency_rate\Calculate_Currency_rate.php:102
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-content\plugins\Calculate_Currency_rate\Calculate_Currency_rate.php(137): display_calculator()
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(433): calculate_rate_shortcode('', '', 'calculate_rate')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(calcul...', 'do_shortcode_ta...', '[calculate_rate...')
+#4 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\widgets\shortcode.php(133): do_shortcode('[calculate_rate...')
+#5 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#6 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#7 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(755): Elementor\Widget_Base->render_content()
+#8 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Widget_Base->print_content()
+#9 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#10 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#11 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#12 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#13 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1740): Elementor\Element_Base->print_element()
+#14 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1139): Elementor\Core\Base\Document->print_elements(Array)
+#15 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1165): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#16 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1060): Elementor\Frontend->get_builder_content(9728)
+#17 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h3>\n\t\t\t\t\tInter...')
+#18 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h3>\n\t\t\t\t\tInter...', Array)
+#19 C:\xampp\htdocs\EgCurrency\wp-includes\post-template.php(256): apply_filters('the_content', '<h3>\n\t\t\t\t\tInter...')
+#20 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#21 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#22 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#23 C:\xampp\htdocs\EgCurrency\wp-content\themes\dt-the7\inc\mods\compatibility\elementor\page-templates\elementor-page.php(27): Elementor\Modules\PageTemplates\Module->print_content()
+#24 C:\xampp\htdocs\EgCurrency\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\EgCurrency\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#26 C:\xampp\htdocs\EgCurrency\index.php(17): require('C:\\xampp\\htdocs...')
+#27 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\Calculate_Currency_rate\Calculate_Currency_rate.php on line 102
+
+2024-02-13T08:48:20+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: float * string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\Calculate_Currency_rate\Calculate_Currency_rate.php:102
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-content\plugins\Calculate_Currency_rate\Calculate_Currency_rate.php(137): display_calculator()
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(433): calculate_rate_shortcode('', '', 'calculate_rate')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(calcul...', 'do_shortcode_ta...', '[calculate_rate...')
+#4 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\widgets\shortcode.php(133): do_shortcode('[calculate_rate...')
+#5 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#6 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#7 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(755): Elementor\Widget_Base->render_content()
+#8 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Widget_Base->print_content()
+#9 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#10 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#11 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#12 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#13 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1740): Elementor\Element_Base->print_element()
+#14 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1139): Elementor\Core\Base\Document->print_elements(Array)
+#15 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1165): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#16 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1060): Elementor\Frontend->get_builder_content(9728)
+#17 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h3>\n\t\t\t\t\tInter...')
+#18 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h3>\n\t\t\t\t\tInter...', Array)
+#19 C:\xampp\htdocs\EgCurrency\wp-includes\post-template.php(256): apply_filters('the_content', '<h3>\n\t\t\t\t\tInter...')
+#20 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#21 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#22 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#23 C:\xampp\htdocs\EgCurrency\wp-content\themes\dt-the7\inc\mods\compatibility\elementor\page-templates\elementor-page.php(27): Elementor\Modules\PageTemplates\Module->print_content()
+#24 C:\xampp\htdocs\EgCurrency\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\EgCurrency\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#26 C:\xampp\htdocs\EgCurrency\index.php(17): require('C:\\xampp\\htdocs...')
+#27 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\Calculate_Currency_rate\Calculate_Currency_rate.php on line 102
+
+2024-02-13T09:39:35+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: float * string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\Calculate_Currency_rate\Calculate_Currency_rate.php:107
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-content\plugins\Calculate_Currency_rate\Calculate_Currency_rate.php(123): display_calculator()
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(433): calculate_rate_shortcode('', '', 'calculate_rate')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(calcul...', 'do_shortcode_ta...', '[calculate_rate...')
+#4 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\widgets\shortcode.php(133): do_shortcode('[calculate_rate...')
+#5 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#6 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#7 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(755): Elementor\Widget_Base->render_content()
+#8 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Widget_Base->print_content()
+#9 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#10 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#11 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#12 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#13 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1740): Elementor\Element_Base->print_element()
+#14 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1139): Elementor\Core\Base\Document->print_elements(Array)
+#15 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1165): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#16 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1060): Elementor\Frontend->get_builder_content(9728)
+#17 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h3>\n\t\t\t\t\tInter...')
+#18 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h3>\n\t\t\t\t\tInter...', Array)
+#19 C:\xampp\htdocs\EgCurrency\wp-includes\post-template.php(256): apply_filters('the_content', '<h3>\n\t\t\t\t\tInter...')
+#20 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#21 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#22 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#23 C:\xampp\htdocs\EgCurrency\wp-content\themes\dt-the7\inc\mods\compatibility\elementor\page-templates\elementor-page.php(27): Elementor\Modules\PageTemplates\Module->print_content()
+#24 C:\xampp\htdocs\EgCurrency\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\EgCurrency\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#26 C:\xampp\htdocs\EgCurrency\index.php(17): require('C:\\xampp\\htdocs...')
+#27 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\Calculate_Currency_rate\Calculate_Currency_rate.php on line 107
+
+2024-02-13T11:20:39+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:20:42+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:20:42+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:20:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:20:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:20:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:20:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:20:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:20:45+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:20:45+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:20:45+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:20:45+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:20:45+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:20:46+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:20:46+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:20:46+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:45+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:48+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:48+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:49+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:49+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:49+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:50+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:50+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:50+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:51+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:51+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:51+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:51+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:52+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:52+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:53+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:53+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:53+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:21:53+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:23:16+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:23:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:25:04+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:25:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:25:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:25:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:25:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:25:06+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:25:06+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:25:07+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:25:07+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:25:07+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:25:07+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:25:07+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:25:08+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:25:08+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:25:08+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:25:09+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:25:09+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:25:09+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T11:25:10+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "calculate_rate_ajax" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_calcula...')
+#3 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php on line 324
+

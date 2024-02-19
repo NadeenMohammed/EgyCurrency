@@ -1,0 +1,9 @@
+2024-02-14T11:17:29+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string + float in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-converter\currency-converter.php:137
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): currency_converter_ajax_callback('')
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(188): do_action('wp_ajax_currenc...')
+#4 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-converter\currency-converter.php on line 137
+

@@ -1,0 +1,90 @@
+2024-02-05T05:30:40+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php:47
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): currency_bank_exchange_register_settings('')
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php on line 47
+
+2024-02-05T05:30:40+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php:47
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): currency_bank_exchange_register_settings('')
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php on line 47
+
+2024-02-05T05:32:41+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php:47
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): currency_bank_exchange_register_settings('')
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php on line 47
+
+2024-02-05T05:34:41+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php:47
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): currency_bank_exchange_register_settings('')
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php on line 47
+
+2024-02-05T05:36:43+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php:47
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): currency_bank_exchange_register_settings('')
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php on line 47
+
+2024-02-05T05:38:41+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php:47
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): currency_bank_exchange_register_settings('')
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php on line 47
+
+2024-02-05T05:38:43+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php:47
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): currency_bank_exchange_register_settings('')
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php on line 47
+
+2024-02-05T05:38:46+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php:47
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): currency_bank_exchange_register_settings('')
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-admin\admin.php(175): do_action('admin_init')
+#4 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php on line 47
+
+2024-02-05T05:39:17+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php:47
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): currency_bank_exchange_register_settings('')
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-admin\admin.php(175): do_action('admin_init')
+#4 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php on line 47
+
+2024-02-05T05:39:45+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php:63
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): currency_bank_exchange_register_settings('')
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-admin\admin.php(175): do_action('admin_init')
+#4 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board\currency-exchange-board - with flag.php on line 63
+

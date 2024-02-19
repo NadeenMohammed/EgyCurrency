@@ -1,0 +1,287 @@
+2024-02-01T07:11:59+00:00 CRITICAL syntax error, unexpected single-quoted string "to", expecting ")" in C:\xampp\htdocs\EgCurrency\wp-content\plugins\Exchange_rate\Exchange-rate.php on line 25
+
+2024-02-01T07:25:12+00:00 CRITICAL syntax error, unexpected single-quoted string "to", expecting ")" in C:\xampp\htdocs\EgCurrency\wp-content\plugins\Exchange_rate\Exchange-rate.php on line 25
+
+2024-02-01T07:35:37+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "currency_color_callback" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-admin\includes\template.php:1836
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-admin\includes\template.php(1790): do_settings_fields('currency-exchan...', 'currency_sectio...')
+#1 C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php(28): do_settings_sections('currency-exchan...')
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): currency_exchange_settings_page('')
+#3 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\EgCurrency\wp-admin\admin.php(259): do_action('toplevel_page_c...')
+#6 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-admin\includes\template.php on line 1836
+
+2024-02-01T07:36:01+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "currency_color_callback" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-admin\includes\template.php:1836
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-admin\includes\template.php(1790): do_settings_fields('currency-exchan...', 'currency_sectio...')
+#1 C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php(28): do_settings_sections('currency-exchan...')
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): currency_exchange_settings_page('')
+#3 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\EgCurrency\wp-admin\admin.php(259): do_action('toplevel_page_c...')
+#6 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-admin\includes\template.php on line 1836
+
+2024-02-01T07:57:43+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function currency_buy_callback(), 0 passed in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php on line 161 and exactly 1 expected in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php:127
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php(161): currency_buy_callback()
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(433): display_currency_exchange_board('', '', 'currency_exchan...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(curren...', 'do_shortcode_ta...', '[currency_excha...')
+#4 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\widgets\shortcode.php(133): do_shortcode('[currency_excha...')
+#5 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#6 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#7 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(755): Elementor\Widget_Base->render_content()
+#8 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Widget_Base->print_content()
+#9 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#10 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#11 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#12 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#13 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1740): Elementor\Element_Base->print_element()
+#14 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1139): Elementor\Core\Base\Document->print_elements(Array)
+#15 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1165): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#16 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1060): Elementor\Frontend->get_builder_content(9728)
+#17 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h2><a href="ht...')
+#18 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h2><a href="ht...', Array)
+#19 C:\xampp\htdocs\EgCurrency\wp-includes\post-template.php(256): apply_filters('the_content', '<h2><a href="ht...')
+#20 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#21 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#22 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#23 C:\xampp\htdocs\EgCurrency\wp-content\themes\dt-the7\inc\mods\compatibility\elementor\page-templates\elementor-page.php(27): Elementor\Modules\PageTemplates\Module->print_content()
+#24 C:\xampp\htdocs\EgCurrency\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\EgCurrency\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#26 C:\xampp\htdocs\EgCurrency\index.php(17): require('C:\\xampp\\htdocs...')
+#27 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php on line 127
+
+2024-02-01T07:58:22+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int / string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php:168
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(433): display_currency_exchange_board('', '', 'currency_exchan...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(curren...', 'do_shortcode_ta...', '[currency_excha...')
+#3 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\widgets\shortcode.php(133): do_shortcode('[currency_excha...')
+#4 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#5 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#6 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(755): Elementor\Widget_Base->render_content()
+#7 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Widget_Base->print_content()
+#8 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#9 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#10 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#11 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#12 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1740): Elementor\Element_Base->print_element()
+#13 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1139): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1165): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1060): Elementor\Frontend->get_builder_content(9728)
+#16 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h2><a href="ht...')
+#17 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h2><a href="ht...', Array)
+#18 C:\xampp\htdocs\EgCurrency\wp-includes\post-template.php(256): apply_filters('the_content', '<h2><a href="ht...')
+#19 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#20 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#21 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#22 C:\xampp\htdocs\EgCurrency\wp-content\themes\dt-the7\inc\mods\compatibility\elementor\page-templates\elementor-page.php(27): Elementor\Modules\PageTemplates\Module->print_content()
+#23 C:\xampp\htdocs\EgCurrency\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#24 C:\xampp\htdocs\EgCurrency\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\EgCurrency\index.php(17): require('C:\\xampp\\htdocs...')
+#26 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php on line 168
+
+2024-02-01T07:59:12+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int / string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php:168
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(433): display_currency_exchange_board('', '', 'currency_exchan...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(curren...', 'do_shortcode_ta...', '[currency_excha...')
+#3 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\widgets\shortcode.php(133): do_shortcode('[currency_excha...')
+#4 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#5 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#6 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(755): Elementor\Widget_Base->render_content()
+#7 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Widget_Base->print_content()
+#8 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#9 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#10 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#11 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#12 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1740): Elementor\Element_Base->print_element()
+#13 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1139): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1165): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1060): Elementor\Frontend->get_builder_content(9728)
+#16 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h2><a href="ht...')
+#17 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h2><a href="ht...', Array)
+#18 C:\xampp\htdocs\EgCurrency\wp-includes\post-template.php(256): apply_filters('the_content', '<h2><a href="ht...')
+#19 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#20 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#21 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#22 C:\xampp\htdocs\EgCurrency\wp-content\themes\dt-the7\inc\mods\compatibility\elementor\page-templates\elementor-page.php(27): Elementor\Modules\PageTemplates\Module->print_content()
+#23 C:\xampp\htdocs\EgCurrency\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#24 C:\xampp\htdocs\EgCurrency\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\EgCurrency\index.php(17): require('C:\\xampp\\htdocs...')
+#26 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php on line 168
+
+2024-02-01T07:59:59+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int / string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php:168
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(433): display_currency_exchange_board('', '', 'currency_exchan...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(curren...', 'do_shortcode_ta...', '[currency_excha...')
+#3 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\widgets\shortcode.php(133): do_shortcode('[currency_excha...')
+#4 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#5 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#6 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(755): Elementor\Widget_Base->render_content()
+#7 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Widget_Base->print_content()
+#8 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#9 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#10 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#11 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#12 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1740): Elementor\Element_Base->print_element()
+#13 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1139): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1165): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1060): Elementor\Frontend->get_builder_content(9728)
+#16 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h2><a href="ht...')
+#17 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h2><a href="ht...', Array)
+#18 C:\xampp\htdocs\EgCurrency\wp-includes\post-template.php(256): apply_filters('the_content', '<h2><a href="ht...')
+#19 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#20 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#21 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#22 C:\xampp\htdocs\EgCurrency\wp-content\themes\dt-the7\inc\mods\compatibility\elementor\page-templates\elementor-page.php(27): Elementor\Modules\PageTemplates\Module->print_content()
+#23 C:\xampp\htdocs\EgCurrency\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#24 C:\xampp\htdocs\EgCurrency\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\EgCurrency\index.php(17): require('C:\\xampp\\htdocs...')
+#26 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php on line 168
+
+2024-02-01T08:02:31+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int / string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php:168
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(433): display_currency_exchange_board('', '', 'currency_exchan...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(curren...', 'do_shortcode_ta...', '[currency_excha...')
+#3 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\widgets\shortcode.php(133): do_shortcode('[currency_excha...')
+#4 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#5 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#6 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(755): Elementor\Widget_Base->render_content()
+#7 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Widget_Base->print_content()
+#8 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#9 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#10 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#11 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#12 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1740): Elementor\Element_Base->print_element()
+#13 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1139): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1165): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1060): Elementor\Frontend->get_builder_content(9728)
+#16 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h2><a href="ht...')
+#17 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h2><a href="ht...', Array)
+#18 C:\xampp\htdocs\EgCurrency\wp-includes\post-template.php(256): apply_filters('the_content', '<h2><a href="ht...')
+#19 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#20 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#21 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#22 C:\xampp\htdocs\EgCurrency\wp-content\themes\dt-the7\inc\mods\compatibility\elementor\page-templates\elementor-page.php(27): Elementor\Modules\PageTemplates\Module->print_content()
+#23 C:\xampp\htdocs\EgCurrency\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#24 C:\xampp\htdocs\EgCurrency\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\EgCurrency\index.php(17): require('C:\\xampp\\htdocs...')
+#26 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php on line 168
+
+2024-02-01T08:03:16+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int / string in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php:168
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(433): display_currency_exchange_board('', '', 'currency_exchan...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(curren...', 'do_shortcode_ta...', '[currency_excha...')
+#3 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\widgets\shortcode.php(133): do_shortcode('[currency_excha...')
+#4 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#5 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#6 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(755): Elementor\Widget_Base->render_content()
+#7 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Widget_Base->print_content()
+#8 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#9 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#10 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#11 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#12 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1740): Elementor\Element_Base->print_element()
+#13 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1139): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1165): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1060): Elementor\Frontend->get_builder_content(9728)
+#16 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h2><a href="ht...')
+#17 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h2><a href="ht...', Array)
+#18 C:\xampp\htdocs\EgCurrency\wp-includes\post-template.php(256): apply_filters('the_content', '<h2><a href="ht...')
+#19 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#20 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#21 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#22 C:\xampp\htdocs\EgCurrency\wp-content\themes\dt-the7\inc\mods\compatibility\elementor\page-templates\elementor-page.php(27): Elementor\Modules\PageTemplates\Module->print_content()
+#23 C:\xampp\htdocs\EgCurrency\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#24 C:\xampp\htdocs\EgCurrency\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\EgCurrency\index.php(17): require('C:\\xampp\\htdocs...')
+#26 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php on line 168
+
+2024-02-01T08:03:34+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function currency_buy_callback(), 0 passed in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php on line 161 and exactly 1 expected in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php:127
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php(161): currency_buy_callback()
+#1 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(433): display_currency_exchange_board('', '', 'currency_exchan...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(curren...', 'do_shortcode_ta...', '[currency_excha...')
+#4 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\widgets\shortcode.php(133): do_shortcode('[currency_excha...')
+#5 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#6 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#7 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(755): Elementor\Widget_Base->render_content()
+#8 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Widget_Base->print_content()
+#9 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#10 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#11 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#12 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#13 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1740): Elementor\Element_Base->print_element()
+#14 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1139): Elementor\Core\Base\Document->print_elements(Array)
+#15 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1165): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#16 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1060): Elementor\Frontend->get_builder_content(9728)
+#17 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h2><a href="ht...')
+#18 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h2><a href="ht...', Array)
+#19 C:\xampp\htdocs\EgCurrency\wp-includes\post-template.php(256): apply_filters('the_content', '<h2><a href="ht...')
+#20 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#21 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#22 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#23 C:\xampp\htdocs\EgCurrency\wp-content\themes\dt-the7\inc\mods\compatibility\elementor\page-templates\elementor-page.php(27): Elementor\Modules\PageTemplates\Module->print_content()
+#24 C:\xampp\htdocs\EgCurrency\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\EgCurrency\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#26 C:\xampp\htdocs\EgCurrency\index.php(17): require('C:\\xampp\\htdocs...')
+#27 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php on line 127
+
+2024-02-01T08:25:15+00:00 CRITICAL Uncaught Error: Call to undefined function get_currency_exchange_rates() in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php:160
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(433): display_currency_exchange_board('', '', 'currency_exchan...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(curren...', 'do_shortcode_ta...', '[currency_excha...')
+#3 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\widgets\shortcode.php(133): do_shortcode('[currency_excha...')
+#4 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#5 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#6 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\widget-base.php(755): Elementor\Widget_Base->render_content()
+#7 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Widget_Base->print_content()
+#8 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#9 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#10 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(1372): Elementor\Element_Base->print_element()
+#11 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#12 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1740): Elementor\Element_Base->print_element()
+#13 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\core\base\document.php(1139): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1165): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\includes\frontend.php(1060): Elementor\Frontend->get_builder_content(9728)
+#16 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h2><a href="ht...')
+#17 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h2><a href="ht...', Array)
+#18 C:\xampp\htdocs\EgCurrency\wp-includes\post-template.php(256): apply_filters('the_content', '<h2><a href="ht...')
+#19 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#20 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#21 C:\xampp\htdocs\EgCurrency\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#22 C:\xampp\htdocs\EgCurrency\wp-content\themes\dt-the7\inc\mods\compatibility\elementor\page-templates\elementor-page.php(27): Elementor\Modules\PageTemplates\Module->print_content()
+#23 C:\xampp\htdocs\EgCurrency\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#24 C:\xampp\htdocs\EgCurrency\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\EgCurrency\index.php(17): require('C:\\xampp\\htdocs...')
+#26 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php on line 160
+
+2024-02-01T11:31:25+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "currency_sell_rate_callback" not found or invalid function name in C:\xampp\htdocs\EgCurrency\wp-admin\includes\template.php:1836
+Stack trace:
+#0 C:\xampp\htdocs\EgCurrency\wp-admin\includes\template.php(1790): do_settings_fields('currency-exchan...', 'currency_sectio...')
+#1 C:\xampp\htdocs\EgCurrency\wp-content\plugins\currency-exchange-board-\currency-exchange-board - with flag.php(28): do_settings_sections('currency-exchan...')
+#2 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(324): currency_exchange_settings_page('')
+#3 C:\xampp\htdocs\EgCurrency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\EgCurrency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\EgCurrency\wp-admin\admin.php(259): do_action('toplevel_page_c...')
+#6 {main}
+  thrown in C:\xampp\htdocs\EgCurrency\wp-admin\includes\template.php on line 1836
+
